@@ -1,3 +1,4 @@
+sudo -i
 apt update
 apt full-upgrade -y
 pihole -up
