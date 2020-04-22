@@ -1,0 +1,6 @@
+apt update
+apt full-upgrade -y
+pihole -up
+apt autoremove
+apt clean
+reboot now
