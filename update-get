@@ -1,0 +1,6 @@
+sudo -i
+apt-get update
+apt-get upgrade -y
+pihole -up
+apt-get autoremove
+reboot now
